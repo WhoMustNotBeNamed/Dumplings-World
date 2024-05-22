@@ -1,5 +1,6 @@
 package org.whomustnotbenamed.dumplingsworld.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
@@ -9,6 +10,6 @@ public class Ingredient {
     private final Type type;
 
     public enum Type {
-        MINCED_PORK, MINCED_VEAL, MINCED_MIX, SOUR_CREAM, BUTTER
+        MINCED, SPICE, ADDITION,
     }
 }
